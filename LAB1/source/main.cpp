@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <cstdio>
-
+// otworzyles swe usta i wyrzekles me imie ³oooo panie
 #define IDLESS  IDNO
 #define IDMORE  IDYES
 #define IDHIT   IDCANCEL
