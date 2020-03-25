@@ -23,7 +23,7 @@
     <ProjectGuid>{761DE4E0-F634-4DD4-8280-E1C85EA5C686}</ProjectGuid>
     <RootNamespace>makevisual2019</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>ZD1</ProjectName>
+    <ProjectName>ZD2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,6 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\res.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\source\res.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

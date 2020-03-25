@@ -1,0 +1,442 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "res.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON                    "MiK2.ico"
+
+IDI_TRZECIA             ICON                    "kajko i kokosz gruby.ico"
+
+IDI_DRUGA               ICON                    "CHUDY2.ico"
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "res.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDI_MENUKAJKO MENU
+BEGIN
+    POPUP "Cechy Postaci"
+    BEGIN
+        MENUITEM "Niski",                       ID_CECHYPOSTACI_NISKI
+        MENUITEM "Inteligenty",                 ID_CECHYPOSTACI_INTELIGENTY
+        MENUITEM "Wiotkie miêœnie",             ID_CECHYPOSTACI_S40015
+    END
+    POPUP "Ekwipunek"
+    BEGIN
+        POPUP "He³m"
+        BEGIN
+            POPUP "Czerwona opaska"
+            BEGIN
+                MENUITEM "Ochrona przed s³oñcem: +15",  ID_CZERWONAOPASKA_OCHRONAPRZEDS40045
+                MENUITEM "Kamuflasz : -10",             ID_CZERWONAOPASKA_KAMUFLASZ
+                MENUITEM "Ochrona przed zimnem : +15",  ID_CZERWONAOPASKA_OCHRONAPRZEDZIMNEM
+                MENUITEM "Magiczne zdolnoœci: brak",    ID_CZERWONAOPASKA_MAGICZNEZDOLNO40048
+            END
+        END
+        POPUP "Zbroja"
+        BEGIN
+            POPUP "Modna czarna tunika z ¿óltymi rêkawami"
+            BEGIN
+                MENUITEM "ochrona : 32",                ID_MODNACZARNATUNIKAZ40050
+                POPUP "Dwa sloty na magiczne przedmioty"
+                BEGIN
+                    MENUITEM "1: pusty",                    ID_DWASLOTYNAMAGICZNEPRZEDMIOTY_1
+                    MENUITEM "2: pusty",                    ID_DWASLOTYNAMAGICZNEPRZEDMIOTY_2
+                END
+            END
+        END
+        POPUP "Spodnie"
+        BEGIN
+            POPUP "Zielone wedrowniczki"
+            BEGIN
+                MENUITEM "ochrona: +12",                ID_ZIELONEWEDROWNICZKI_OCHRONA
+            END
+        END
+        POPUP "Buty"
+        BEGIN
+            POPUP "Br¹zowe drepcedesy"
+            BEGIN
+                MENUITEM "Ochrona: +6",                 ID_BR40057
+                MENUITEM "Szybkoœæ: +4",                ID_BR40058
+                POPUP "Tajemniczy napis wewn¹trz buta"
+                BEGIN
+                    MENUITEM "Just do it!",                 ID_TAJEMNICZYNAPISWEWN40077
+                END
+            END
+        END
+        POPUP "Pasek"
+        BEGIN
+            POPUP "Z czerwonego wê¿a"
+            BEGIN
+                MENUITEM "Ochrona: +4",                 ID_ZCZERWONEGOW40061
+                POPUP "Miejsce na mikstury: 8"
+                BEGIN
+                    MENUITEM "1. Œredni eliksir ¿ycia: +65pkt", ID_MIEJSCENAMIKSTURY_1
+                    MENUITEM "2. Œredni eliksir ¿ycia: +65pkt", ID_MIEJSCENAMIKSTURY_2
+                    POPUP "3. Alkohol etylowy "
+                    BEGIN
+                        MENUITEM "U¿ycie wymaga umiejêtnosci: Alchemnik", ID_3_WYMAGAUMIEJ40066
+                    END
+                    MENUITEM "4. pusty",                    ID_MIEJSCENAMIKSTURY_4
+                    MENUITEM "5. pusty",                    ID_MIEJSCENAMIKSTURY_5
+                    MENUITEM "6. pusty",                    ID_MIEJSCENAMIKSTURY_6
+                    POPUP "7. Woda po ogórkach: "
+                    BEGIN
+                        MENUITEM "Skrócenie czasu regenaracji do 30s", ID_7_SKR40071
+                    END
+                    MENUITEM "8. pusty",                    ID_Menu40072
+                END
+                POPUP "Z czerwon¹ opask¹ tworzy zestaw"
+                BEGIN
+                    POPUP "Elemnty zestawu 2/4"
+                    BEGIN
+                        MENUITEM "Szczêœcie:: +16",             ID_ELEMNTYZESTAWU2_SZCZ40075
+                    END
+                END
+            END
+        END
+    END
+    POPUP "Statystkyki"
+    BEGIN
+        POPUP "Si³a"
+        BEGIN
+            MENUITEM "12 / 100",                    ID_SI40078
+        END
+        POPUP "Zrecznosc"
+        BEGIN
+            MENUITEM "26 / 100",                    ID_ZRECZNOSC_26
+        END
+        POPUP "Inteligencja"
+        BEGIN
+            MENUITEM "44 / 100",                    ID_INTELIGENCJA_44
+        END
+    END
+    POPUP "Marzenia"
+    BEGIN
+        POPUP "Spelnione"
+        BEGIN
+            MENUITEM "Poznanie prawdziwego przyjaciela", ID_SPELNIONE_POZNANIEPRAWDZIWEGOPRZYJACIELA
+        END
+        POPUP "Niespelnione"
+        BEGIN
+            POPUP "W sluzbie dobra"
+            BEGIN
+                MENUITEM "Studia na kierunku Elektronika i Telekomunikacja", ID_WSLUZBIEDOBRA_STUDIANAKIERUNKUELEKTRONIKAITELEKOMUNIKACJA
+            END
+            POPUP "W sluzbie zla"
+            BEGIN
+                POPUP "Hardkorowe"
+                BEGIN
+                    POPUP "Angazujace osoby trzecie"
+                    BEGIN
+                        MENUITEM "Kaszlniêcie na kogoœ w czasie epidemii", ID_ANGAZUJACEOSOBYTRZECIE_KASZLNI40026
+                    END
+                    MENUITEM "Angazujace tylko jedna sobe", ID_HARDKOROWE_ANGAZUJACETYLKOJEDNASOBE
+                END
+                POPUP "Nie warte uwagi"
+                BEGIN
+                    MENUITEM "Studia na kierunku Europeistyka", ID_NIEWARTEUWAGI_STUDIANAKIERUNKUEUROPEISTYKA
+                END
+            END
+        END
+        POPUP "Tylko dla doroslych"
+        BEGIN
+            MENUITEM "Hola hola !",                 ID_TYLKODLADOROSLYCH_HOLAHOLA
+        END
+    END
+END
+
+IDR_MENUKOKOSZ MENU
+BEGIN
+    POPUP "Cechy postaci"
+    BEGIN
+        MENUITEM "Wysoki",                      ID_CECHYPOSTACI_WYSOKI
+        MENUITEM "Niezbyt sprytny",             ID_CECHYPOSTACI_NIEZBYTSPRYTNY
+        MENUITEM "Bardzo silny",                ID_CECHYPOSTACI_BARDZOSILNY
+    END
+    POPUP "Ekwipunek"
+    BEGIN
+        POPUP "He³m"
+        BEGIN
+            POPUP "Metalowa pokrywa deserowa"
+            BEGIN
+                MENUITEM "Ochrona : +10",               ID_METALOWAPOKRYWADESEROWA_OCHRONA
+                POPUP "Zale¿na od temperatury"
+                BEGIN
+                    POPUP "Gdy zimno "
+                    BEGIN
+                        MENUITEM "Przyczepia siê do g³owy",     ID_GDYZIMNO_PRZYCZEPIASI40088
+                    END
+                    POPUP "Gdy goraco"
+                    BEGIN
+                        MENUITEM "Przegrzewa g³owê",            ID_GDYGORACO_PRZEGRZEWAG40090
+                    END
+                END
+                POPUP "Specjalnoœæ"
+                BEGIN
+                    MENUITEM "Odwrócony s³u¿y jako puchar ", ID_DODATKOWAZALETA_ODW
+                END
+            END
+        END
+        POPUP "Zbroja"
+        BEGIN
+            POPUP "Koszulka w stylu Gender"
+            BEGIN
+                MENUITEM "Ochrona: +22",                ID_KOSZULKAWSTYLUGENDER_OCHRONA
+                MENUITEM "Brak slotów na magiczne przedmioty", ID_KOSZULKAWSTYLUGENDER_BRAKSLOT40096
+            END
+        END
+        POPUP "Spodnie"
+        BEGIN
+            POPUP "Czarne rurki"
+            BEGIN
+                MENUITEM "Ochrona: 13",                 ID_CZARNYDRES_OCHRONA
+            END
+        END
+        POPUP "Buty"
+        BEGIN
+            POPUP "Skórzane ci¿my"
+            BEGIN
+                MENUITEM "Ochrona : +4",                ID_SK40100
+                MENUITEM "Szybkoœæ: +7",                ID_SK40101
+            END
+            POPUP "Zapasowe kapcie"
+            BEGIN
+                MENUITEM "Ochrona : +1",                ID_ZAPASOWEKAPCIE_OCHRONA
+                MENUITEM "Szybkoœæ: +0",                ID_ZAPASOWEKAPCIE_SZYBKO40104
+                POPUP "Cechy szczególne"
+                BEGIN
+                    MENUITEM "Miêkkie i ciep³e",            ID_CECHYSZCZEG40106
+                END
+            END
+            POPUP "Boso przez œwiat"
+            BEGIN
+                MENUITEM "Ochrona : +0",                ID_BOSOPRZEZ40108
+                MENUITEM "Szybkoœæ : +0",               ID_BOSOPRZEZ40109
+                POPUP "Cechy szczególne"
+                BEGIN
+                    MENUITEM "Przewiew i komfort",          ID_CECHYSZCZEG40111
+                END
+            END
+        END
+        POPUP "Pasek"
+        BEGIN
+            POPUP "Czerwona skóra"
+            BEGIN
+                MENUITEM "Ochrona: +9",                 ID_CZERWONASK40113
+                POPUP "Miejsce na mikstury: 2"
+                BEGIN
+                    MENUITEM "1. pusty",                    ID_MIEJSCENAMIKSTURY_8
+                    POPUP "2. woda"
+                    BEGIN
+                        MENUITEM "Zmniejsza czas dzia³ania trucizny o 15 %", ID_2_ZMNIEJSZACZASDZIA40117
+                    END
+                END
+            END
+        END
+    END
+    POPUP "Statystyki"
+    BEGIN
+        POPUP "Si³a"
+        BEGIN
+            MENUITEM "68 / 100",                    ID_SI40081
+        END
+        POPUP "Inteligencja"
+        BEGIN
+            MENUITEM "5 / 100",                     ID_INTELIGENCJA_5
+        END
+        POPUP "Zrêcznoœæ"
+        BEGIN
+            MENUITEM "12 / 100",                    ID_ZR40083
+        END
+    END
+    POPUP "Marzenia"
+    BEGIN
+        POPUP "Spe³nione"
+        BEGIN
+            MENUITEM "Rzuciæ kamieniem dalej ni¿ widaæ", ID_SPE40044
+            MENUITEM "Byæ wszêdzie tam gdzie Kajko", ID_SPE40118
+        END
+        POPUP "Niespe³nione"
+        BEGIN
+            MENUITEM "Dosiêgn¹æ tych œwiec¹cych noc¹ œwiate³ek", ID_NIESPE40119
+        END
+        POPUP "Dotycz¹ce jedzenia"
+        BEGIN
+            MENUITEM "Spróbowaæ kuchni Gordona Ramsay'a", ID_DOTYCZ40043
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINKO DIALOGEX 0, 0, 301, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kokosz"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINKO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINKO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINVIEWKA DIALOGEX 0, 0, 301, 110
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Kajko"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINVIEWKA, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 296
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 107
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINVIEWKA AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
